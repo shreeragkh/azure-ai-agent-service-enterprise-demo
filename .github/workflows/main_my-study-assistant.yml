@@ -34,7 +34,7 @@ jobs:
         run: |
           python -m venv antenv
           source antenv/bin/activate
-          pip install --upgrade pip
+          pip install --upgrade pip setuptools wheel
           pip install -r requirements.txt
       
 
@@ -82,5 +82,6 @@ jobs:
           slot-name: 'Production'
 
           
+
 
 
